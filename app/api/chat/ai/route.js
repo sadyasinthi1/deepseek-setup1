@@ -8,8 +8,8 @@ import OpenAI from "openai";
 
 // Initialize OpenAI client with DeepSeek API key and base URL
 const openai = new OpenAI({
-    baseURL: 'https://api.deepseek.com',
-    apiKey: process.env.DEEPSEEK_API_KEY
+    baseURL: 'https://openrouter.ai/api/v1',
+    apiKey: '<OPENROUTER_API_KEY>',
 });
 
 export async function POST(req){
@@ -43,7 +43,7 @@ export async function POST(req){
 
         const completion = await openai.chat.completions.create({
             messages: [{ role: "user", content: prompt }],
-            model: "deepseek-chat",
+            model: "deepseek/deepseek-chat-v3-0324:free",
             store: true,
         });
 
