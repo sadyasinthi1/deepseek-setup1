@@ -9,7 +9,7 @@ import OpenAI from "openai";
 // Initialize OpenAI client with DeepSeek API key and base URL
 const openai = new OpenAI({
     baseURL: 'https://openrouter.ai/api/v1',
-    apiKey: '<OPENROUTER_API_KEY>',
+    apiKey: process.env.DEEPSEEK_API_KEY
 });
 
 export async function POST(req){
