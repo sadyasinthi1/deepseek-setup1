@@ -1,34 +1,10 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+We are going to learn How to build your own Full Stack deepseek AI app using Next JS. In this Full Stack Next js project we will use Clerk for user authentication and MongoDB Atlas for Database. When user creates account on this deepseek clone app, then user data will be stored in MongoDB database with the help of clerk webhooks. 
 
-First, run the development server:
+When you ask anything  from AI, you will get the response using DeepSeek API, and all chat data will get saved in the database that you can access from the sidebar of this AI App.
 
-```bash
-npm run dev![sadyaai](https://github.com/user-attachments/assets/d821d78d-d09f-49ad-996e-9c0815798d04)
+After building this next.js project we will deploy it online using Vercel and we will get the project live link. You can use that project live link in your resume.
 
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 ![sadyaai](https://github.com/user-attachments/assets/6a85231e-3248-4cb9-a358-e9ab32562905)
 
 ## Deploy on Vercel
