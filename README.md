@@ -29,6 +29,7 @@ To learn more about Next.js, take a look at the following resources:
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+![sadyaai](https://github.com/user-attachments/assets/6a85231e-3248-4cb9-a358-e9ab32562905)
 
 ## Deploy on Vercel
 
